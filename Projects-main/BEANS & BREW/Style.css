@@ -1,0 +1,81 @@
+/* Base styling for the Index page */
+body {
+    background-color: #6b503f; /* Background color for the body */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header section */
+header {
+    background-color: #997050; /* Background color for the header */
+    color: #fff; /* Text color */
+    padding: 0px; /* Padding around the header */
+    text-align: center; 
+    font-family:'Courier New', Courier, monospace; 
+}
+
+/* Styling for the title section within the header */
+.title-section {
+    background-color: #6b503f; /* Background color for the title section */
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+
+/* Styling for the navigation options within the header */
+.options-section {
+    background-color: #997050; 
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; 
+    padding: 10px 0; 
+}
+
+/* Styling for each link in the navigation */
+.options-section a {
+    display: block; /* Display links as block elements */
+    margin-bottom: 10px; /* Margin between links */
+    color: white; /* Link text color */
+    text-decoration: none; 
+    padding: 10px 15px; /* Padding for links */
+    border: 1px solid white; /* Border around links */
+    border-radius: 5px; /* Rounded corners for links */
+}
+
+/* Styling when hovering over navigation links */
+.options-section a:hover {
+    background-color: #6b503f; 
+    color: white; 
+}
+
+/* Styling for the main content section */
+main {
+    background-size: contain; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+/* Styling for the container holding rectangles */
+.rectangle-container {
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 20px; /* Margin at the top of the rectangles */
+}
+
+/* Styling for individual rectangles */
+.rectangle {
+    background-color: #997050; 
+    width: 200px; 
+    padding: 10px; /* Padding inside rectangles */
+    text-align: center; /* Center-aligns text inside rectangles */
+}
+
+/* Styling for images inside rectangles */
+.rectangle img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+/* Styling for paragraph text inside rectangles */
+.rectangle p {
+    margin: 0; 
+}

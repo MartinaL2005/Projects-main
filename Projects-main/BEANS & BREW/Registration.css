@@ -1,0 +1,52 @@
+body {
+    background-color: #6b503f; 
+    margin: 0 10px; /* Adds a margin on the left and right sides of the body */
+    padding: 0; 
+}
+
+header {
+    color: aliceblue; 
+    font-size: 50px; /* Font size for the header */
+    text-align: center; 
+    padding: 20px; 
+}
+
+label {
+    color: white; 
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 25px; 
+    margin: 60px; 
+}
+
+input::placeholder {
+    color: white; /* Text color for input placeholders */
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="password"] {
+    padding: 8px; 
+    margin-bottom: 30px; 
+    width: 300px; 
+    border: 1px solid white; 
+    border-radius: 5px; 
+    background-color: #896a57; 
+}
+
+button[type='submit'] {
+    border-radius: 500px; 
+    border: 15px solid white; 
+    width: 150px; 
+    float: right; 
+    color: #6b503f;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold; /* Make the text in the button bold */
+    font-size: 25px; /* Increase the font size of the text inside the button */
+}
+
+label[for='Remember'] {
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-start; 
+    align-content: left; 
+    margin-right: 60px; 
+}

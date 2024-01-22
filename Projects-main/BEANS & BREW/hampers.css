@@ -1,0 +1,46 @@
+body {
+    color:#fff;
+    margin: 0;
+    padding: 0;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+}
+
+.photo-container img {
+    width: 100%; /* Make each image fill the width */
+    object-fit: cover;
+    margin-bottom: 10px; /* Add some space between images */
+}
+
+.content-container {
+    background-color: #6b503f;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #896a57; /* Dark brown button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #896a57; /* Darker brown on hover */
+}
