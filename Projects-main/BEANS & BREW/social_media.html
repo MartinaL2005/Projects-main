@@ -9,15 +9,71 @@
     <div class="content-container">
         <h1>Posts & more</h1>
         <div class="post-container">
+            <div class="post" onclick="toggleLike(this)">
+                <img src="P1.2 and P5.7.jpg" alt="Post 1">
+                <div class="overlay">
+                    <div class="actions">
+                        <span class="like">&#x2764;</span> <!-- Heart symbol -->
+                        <span class="comments">&#x1F4AC;</span> <!-- Talking bubble symbol -->
+                    </div>
+                </div>
+            </div>
+            <div class="post" onclick="toggleLike(this)">
+                <img src="P5.3.jpg" alt="Post 2">
+                <div class="overlay">
+                    <div class="actions">
+                        <span class="like">&#x2764;</span> <!-- Heart symbol -->
+                        <span class="comments">&#x1F4AC;</span> <!-- Talking bubble symbol -->
+                    </div>
+                </div>
+            </div>
+            <div class="post" onclick="toggleLike(this)">
+                <img src="P2.1 and P5.8.jpg" alt="Post 3">
+                <div class="overlay">
+                    <div class="actions">
+                        <span class="like">&#x2764;</span> <!-- Heart symbol -->
+                        <span class="comments">&#x1F4AC;</span> <!-- Talking bubble symbol -->
+                    </div>
+                </div>
+            </div>
+            <div class="post" onclick="toggleLike(this)">
+                <img src="P5.2.jpg" alt="Post 4">
+                <div class="overlay">
+                    <div class="actions">
+                        <span class="like">&#x2764;</span> <!-- Heart symbol -->
+                        <span class="comments">&#x1F4AC;</span> <!-- Talking bubble symbol -->
+                    </div>
+                </div>
+            </div>
+            <div class="post" onclick="toggleLike(this)">
+                <img src="P5.1.jpg" alt="Post 5">
+                <div class="overlay">
+                    <div class="actions">
+                        <span class="like">&#x2764;</span> <!-- Heart symbol -->
+                        <span class="comments">&#x1F4AC;</span> <!-- Talking bubble symbol -->
+                    </div>
+                </div>
+            </div>
+            <div class="post" onclick="toggleLike(this)">
+                <img src="P5.5.jpg" alt="Post 6">
+                <div class="overlay">
+                    <div class="actions">
+                        <span class="like">&#x2764;</span> <!-- Heart symbol -->
+                        <span class="comments">&#x1F4AC;</span> <!-- Talking bubble symbol -->
+                    </div>
+                </div>
+            </div>
+            <div class="post" onclick="toggleLike(this)">
+                <img src="P5.4.jpg" alt="Post 7">
+                <div class="overlay">
+                    <div class="actions">
+                        <span class="like">&#x2764;</span> <!-- Heart symbol -->
+                        <span class="comments">&#x1F4AC;</span> <!-- Talking bubble symbol -->
+                    </div>
+                </div>
+            </div>
             <!-- Repeat the following block for each post -->
             <div class="post">
-                <img src="P1.2 and P5.7.jpg" alt="Post 1">
-                <img src="P2.1 and P5.8.jpg" alt="Post 3">
-                <img src="P5.1.jpg" alt="Post 5">
-                <img src="P5.2.jpg" alt="Post 4">
-                <img src="P5.3.jpg" alt="Post 2">
-                <img src="P5.4.jpg" alt="Post 7">
-                <img src="P5.5.jpg" alt="Post 6">
                 <img src="P5.6.jpg" alt="Post 8">
                 <div class="overlay">
                     <div class="actions">
@@ -29,5 +85,16 @@
             <!-- Repeat the above block for each post -->
         </div>
     </div>
+
+    <script>
+        function toggleLike(post) {
+            //Toggle the 'liked' class on the post
+            post.classList.toggle('liked');
+
+            // Toggle the heart symbol between empty and filled
+        const likeSymbol = post.querySelector('.like');
+        likeSymbol.innerHTML = post.classList.contains('liked') ? '&#x2764;' : '&#x1F5A4;'; // Change to filled heart or empty heart
+        }
+    </script>
 </body>
 </html>

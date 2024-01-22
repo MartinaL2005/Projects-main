@@ -15,13 +15,15 @@ h1 {
 
 .post-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Create a grid with 4 columns */
+    grid-template-columns: repeat(4,1fr); /* Create a grid with 4 columns */
     gap: 20px; 
     margin-top: 20px;
 }
 
 .post {
     position: relative;
+    width: 200px; 
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
 }
 
 .post img {
@@ -60,3 +62,6 @@ h1 {
     cursor: pointer;
 }
 
+.liked {
+    background-color: white; /* Change the background color when liked */
+}

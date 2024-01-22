@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('P2.1\ and\ P5.8.jpg'); 
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center;
+    font-family: 'Arial', sans-serif; /* Use a suitable font */
+}
+
+.container {
+    max-width: 1000px; 
+    margin: 400px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* White container with 80% opacity */
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for a subtle lift effect */
+}
+
+h1 {
+    color: #333; /* Dark text color for the title */
+    text-align: left; /
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #4CAF50; /* Green button color - you can change it to your preference */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
